@@ -1,6 +1,19 @@
 # DKWholesale
 
-## 採購/需求
+## Kiosk Vending Machines
+
+Get Your Free Cartton Vending Machine!
+
+![31696715949_ pic](https://github.com/dotku/dkwholesale.us/assets/1519232/43d6d2cc-1293-416c-9646-6d7154907e46)
+
+### Carku Charege Station
+
+Order your sample starts from $699/pc.
+
+![image](https://github.com/dotku/dkwholesale.us/assets/1519232/34e533f2-46ce-4ebe-b976-6771536872ce)
+
+
+## 大宗物品
 
 | 分類 | 產品名稱 | 產地 | 採購 | 出售 | 市場價 |
 | --- | --- | --- | --- | --- | --- |
