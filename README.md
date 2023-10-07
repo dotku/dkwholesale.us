@@ -20,6 +20,11 @@ https://github.com/dotku/dkwholesale.us/assets/1519232/3860d8f9-a882-4183-b870-4
   <img src="https://github.com/dotku/dkwholesale.us/assets/1519232/34e533f2-46ce-4ebe-b976-6771536872ce" />
 </a>
 
+Use Case 案例
+
+* https://www.linkedin.com/company/chargepal
+* https://charga.co
+
 
 ## 大宗物品
 
