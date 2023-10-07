@@ -4,13 +4,15 @@
 
 Get Your Free Cartton Vending Machine!
 
-![31696715949_ pic](https://github.com/dotku/dkwholesale.us/assets/1519232/43d6d2cc-1293-416c-9646-6d7154907e46)
+<img src="https://github.com/dotku/dkwholesale.us/assets/1519232/43d6d2cc-1293-416c-9646-6d7154907e46" width="500" />
 
 ### Carku Charege Station
 
 Order your sample starts from $699/pc.
 
-![image](https://github.com/dotku/dkwholesale.us/assets/1519232/34e533f2-46ce-4ebe-b976-6771536872ce)
+<a href="https://buy.stripe.com/7sI6oAc6H8qf7QI9AD" target="_blank">
+  <img src="https://github.com/dotku/dkwholesale.us/assets/1519232/34e533f2-46ce-4ebe-b976-6771536872ce" />
+</a>
 
 
 ## 大宗物品
