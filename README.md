@@ -26,3 +26,7 @@ Get Your Free Cartton Vending Machine!
 | 礦 | 鈾礦 | 加拿大 | yes | n/a | |
 | 礦 | 煤 | 印尼 | Yes | n/a | |
 | 作物 | 棉花 | n/a | yes | n/a | |
+
+## Contact US
+
+dkwholesale2020@gmail.com
