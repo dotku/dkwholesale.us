@@ -8,7 +8,7 @@ Get Your Free Cartton Vending Machine!
 
 ### Carku Charege Station
 
-Order your sample starts from $699/pc.
+[Order your sample starts from $699/pc](https://buy.stripe.com/7sI6oAc6H8qf7QI9AD).
 
 <a href="https://buy.stripe.com/7sI6oAc6H8qf7QI9AD" target="_blank">
   <img src="https://github.com/dotku/dkwholesale.us/assets/1519232/34e533f2-46ce-4ebe-b976-6771536872ce" />
