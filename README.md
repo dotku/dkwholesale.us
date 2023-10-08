@@ -14,7 +14,7 @@ Get Your Free Cartton Vending Machine!
 
 <img src="https://github.com/dotku/dkwholesale.us/assets/1519232/9ca1eef6-d6d9-4144-9093-03ea01487b8d" height="750" />
 
-<video controls width="100">
+<video controls width="100%">
   <source src="https://github.com/dotku/dkwholesale.us/assets/1519232/3860d8f9-a882-4183-b870-4a2fe6452837" type="video/mp4">
 </video>
 
