@@ -34,8 +34,8 @@ Get Your Free Cartton Vending Machine!
 
 Use Case 案例
 
-* https://www.linkedin.com/company/chargepal
-* https://charga.co
+* [https://www.linkedin.com/company/chargepal](https://www.linkedin.com/company/chargepal)
+* [https://charga.co](https://charga.co)
 
 
 ## 大宗物品
