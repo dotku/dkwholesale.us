@@ -5,7 +5,7 @@
 Get Your Free Cartton Vending Machine!  
 免费的自动棉花糖机
 
-<img src="https://github.com/dotku/dkwholesale.us/assets/1519232/43d6d2cc-1293-416c-9646-6d7154907e46" width="500" />
+<img src="https://github.com/dotku/dkwholesale.us/assets/1519232/d7cfd605-bc79-4074-8a50-5ae7304710a1" width="500" />
 
 * 低成本，高利潤 / Low cost and high profit
 * 24 小時自動運營 / 24hr Automatic Operation
