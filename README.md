@@ -7,10 +7,10 @@ Get Your Free Cartton Vending Machine!
 
 <img src="https://github.com/dotku/dkwholesale.us/assets/1519232/43d6d2cc-1293-416c-9646-6d7154907e46" width="500" />
 
-* 低成本，高利潤 | Low cost and high profit
-* 24 小時自動運營 | 24hr Automatic Operation
-* 大面積觸摸屏 | Large touch screen
-* 冬季不凍結 | No condensation outdoors in winter
+* 低成本，高利潤 / Low cost and high profit
+* 24 小時自動運營 / 24hr Automatic Operation
+* 大面積觸摸屏 / Large touch screen
+* 冬季不凍結 / No condensation outdoors in winter
 
 <img src="https://github.com/dotku/dkwholesale.us/assets/1519232/9ca1eef6-d6d9-4144-9093-03ea01487b8d" height="750" />
 
