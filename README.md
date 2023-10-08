@@ -2,16 +2,25 @@
 
 ## Kiosk Vending Machines
 
-Get Your Free Cartton Vending Machine!
+Get Your Free Cartton Vending Machine!  
 免费的自动棉花糖机
 
 <img src="https://github.com/dotku/dkwholesale.us/assets/1519232/43d6d2cc-1293-416c-9646-6d7154907e46" width="500" />
+
+* 低成本，高利潤 | Low cost and high profit
+* 24 小時自動運營 | 24hr Automatic Operation
+* 大面積觸摸屏 | Large touch screen
+* 冬季不凍結 | No condensation outdoors in winter
 
 <img src="https://github.com/dotku/dkwholesale.us/assets/1519232/9ca1eef6-d6d9-4144-9093-03ea01487b8d" height="750" />
 
 <video controls width="100">
   <source src="https://github.com/dotku/dkwholesale.us/assets/1519232/3860d8f9-a882-4183-b870-4a2fe6452837" type="video/mp4">
 </video>
+
+我們提供多種合作方案，包括租用、購買或者共享分潤合作。
+
+請聯繫我們: dkwholesale2020@gmail.com
 
 
 ### Carku Charege Station
