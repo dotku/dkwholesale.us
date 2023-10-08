@@ -3,7 +3,7 @@
 ## Kiosk Vending Machines
 
 Get Your Free Cartton Vending Machine!  
-免费的自动棉花糖机
+快來免費領取你的自动棉花糖机吧!
 
 <img src="https://github.com/dotku/dkwholesale.us/assets/1519232/d7cfd605-bc79-4074-8a50-5ae7304710a1" width="500" />
 
