@@ -1,6 +1,6 @@
 [{
-  category: "customers",
-  items: [
+  "category": "customers",
+  "items": [
     "棉花糖機器",
     "電子煙",
     "鞋子",
@@ -17,8 +17,8 @@
     "古董傢俱",
     "珠寶玉石"
   ],
-  category: "business",
-  items: [
+  "category": "business",
+  "items": [
     "二手手機",
     "電池回收（主要是汽車電池）",
     "紡織材料",
