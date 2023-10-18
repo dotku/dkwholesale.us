@@ -39,7 +39,9 @@ Use Case 案例
 
 ## Education
 
-![image](https://github.com/dotku/dkwholesale.us/assets/1519232/7f765a92-75dc-4f72-903e-62574d8e3b5c)
+<a href="https://www.shopfund.com/Shop?sid=2100584&t=EM" target="_blank">
+  <img src="https://github.com/dotku/dkwholesale.us/assets/1519232/7f765a92-75dc-4f72-903e-62574d8e3b5c" />
+</a>
 
 My group, Kolb Elementary School, kicked off our fundraiser and I need your help! We are raising $25,000 for classroom supplies and grants, library grants, community events and more.
 
