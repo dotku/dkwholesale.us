@@ -39,6 +39,8 @@ Use Case 案例
 
 ## Education
 
+![image](https://github.com/dotku/dkwholesale.us/assets/1519232/7f765a92-75dc-4f72-903e-62574d8e3b5c)
+
 My group, Kolb Elementary School, kicked off our fundraiser and I need your help! We are raising $25,000 for classroom supplies and grants, library grants, community events and more.
 
 Will you please help me reach my goal? You can support my fundraiser by going to the link below.  If you don't use my personal shopping link, you need to go to https://www.ShopFund.com click SHOP NOW and then put in my Student Code: NFR18568.
