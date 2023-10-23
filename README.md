@@ -47,7 +47,7 @@ My group, Kolb Elementary School, kicked off our fundraiser and I need your help
 
 Will you please help me reach my goal? You can support my fundraiser by going to the link below.  If you don't use my personal shopping link, you need to go to https://www.ShopFund.com click SHOP NOW and then put in my Student Code: NFR18568.
 
-My Personal Shopping link is: https://www.shopfund.com/Shop?sid=2100584&t=EM
+My Personal Shopping link is: [https://www.shopfund.com/Shop?sid=2100584&t=EM](https://www.shopfund.com/Shop?sid=2100584&t=EM)
 
 Thank you so much and let me know when you are done :)
 
