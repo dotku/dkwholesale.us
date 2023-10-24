@@ -60,6 +60,7 @@ Thank you so much and let me know when you are done :)
 | 糧食 | 白糖 | 巴西 | $300 | $600 | $1000 |
 | 糧食 | 玉米 | n/a | n/a | n/a | n/a |
 | 糧食 | 豬肉 | n/a | n/a | $2,688 | n/a |
+| 糧食 | 雞爪 | 巴西 | n/a | n/a | $6,155.45/t |
 | 礦 | 稀土 | n/a | n/a | $60m | n/a |
 | 礦 | 鈾礦 | 加拿大 | yes | n/a | |
 | 礦 | 煤 | 印尼 | Yes | n/a | |
