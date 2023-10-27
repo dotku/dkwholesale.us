@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# DKWholesale
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Kiosk Vending Machines
 
-## Available Scripts
+Get Your Free Cartton Vending Machine!  
+快來免費領取你的自动棉花糖机吧!
 
-In the project directory, you can run:
+<img src="https://github.com/dotku/dkwholesale.us/assets/1519232/d7cfd605-bc79-4074-8a50-5ae7304710a1" width="500" />
 
-### `npm start`
+* 低成本，高利潤 / Low cost and high profit
+* 24 小時自動運營 / 24hr Automatic Operation
+* 大面積觸摸屏 / Large touch screen
+* 冬季不凍結 / No condensation outdoors in winter
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="https://github.com/dotku/dkwholesale.us/assets/1519232/9ca1eef6-d6d9-4144-9093-03ea01487b8d" height="750" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<video controls width="100%">
+  <source src="https://github.com/dotku/dkwholesale.us/assets/1519232/3860d8f9-a882-4183-b870-4a2fe6452837" type="video/mp4">
+</video>
 
-### `npm test`
+我們提供多種合作方案，包括租用、購買或者共享分潤合作。
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+請聯繫我們: dkwholesale2020@gmail.com
 
-### `npm run build`
+### Mobile Phone Battery Bank Charege Station
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+移動手機電池充電台
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Order your sample starts from $699/pc](https://buy.stripe.com/7sI6oAc6H8qf7QI9AD).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<a href="https://buy.stripe.com/7sI6oAc6H8qf7QI9AD" target="_blank">
+  <img src="https://github.com/dotku/dkwholesale.us/assets/1519232/34e533f2-46ce-4ebe-b976-6771536872ce" />
+</a>
 
-### `npm run eject`
+Use Case 案例
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* [https://www.linkedin.com/company/chargepal](https://www.linkedin.com/company/chargepal)
+* [https://charga.co](https://charga.co)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Education
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<a href="https://www.shopfund.com/Shop?sid=2100584&t=EM" target="_blank">
+  <img src="https://github.com/dotku/dkwholesale.us/assets/1519232/7f765a92-75dc-4f72-903e-62574d8e3b5c" />
+</a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+My group, Kolb Elementary School, kicked off our fundraiser and I need your help! We are raising $25,000 for classroom supplies and grants, library grants, community events and more.
 
-## Learn More
+Will you please help me reach my goal? You can support my fundraiser by going to the link below.  If you don't use my personal shopping link, you need to go to https://www.ShopFund.com click SHOP NOW and then put in my Student Code: NFR18568.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+My Personal Shopping link is: [https://www.shopfund.com/Shop?sid=2100584&t=EM](https://www.shopfund.com/Shop?sid=2100584&t=EM)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Thank you so much and let me know when you are done :)
 
-### Code Splitting
+## 大宗物品
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+我們同時提供全球各類大宗產品的採購和出售服務。
 
-### Analyzing the Bundle Size
+| 分類 | 產品名稱 | 產地 | 採購 | 出售 | 市場價 |
+| --- | --- | --- | --- | --- | --- |
+| 糧食 | 白糖 | 巴西 | $300 | $600 | $1000 |
+| 糧食 | 玉米 | n/a | n/a | n/a | n/a |
+| 糧食 | 豬肉 | n/a | n/a | $2,688 | n/a |
+| 糧食 | 雞爪 | 巴西 | n/a | n/a | $6,155.45/t |
+| 礦 | 稀土 | n/a | n/a | $60m | n/a |
+| 礦 | 鈾礦 | 加拿大 | yes | n/a | |
+| 礦 | 煤 | 印尼 | Yes | n/a | |
+| 作物 | 棉花 | n/a | yes | n/a | |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact US
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+dkwholesale2020@gmail.com
