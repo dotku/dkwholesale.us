@@ -16,9 +16,9 @@ export default function Merchaindise() {
       </p>
       <p>
         Will you please help me reach my goal? You can support my fundraiser by
-        going to the link below. If you don’t use my personal shopping link, you
-        need to go to https://www.ShopFund.com click SHOP NOW and then put in my
-        Student Code: NFR18568.
+        going to the link below. If you don&apos;t use my personal shopping
+        link, you need to go to https://www.ShopFund.com click SHOP NOW and then
+        put in my Student Code: NFR18568.
       </p>
       <p>
         My Personal Shopping link is:{" "}

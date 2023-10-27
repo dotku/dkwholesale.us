@@ -25,6 +25,11 @@ export default function Navigator() {
       display: "Commodity",
       href: "/commodity",
     },
+    {
+      paths: ["/lunar-new-year-festival-products"],
+      display: "Lunar New Year Festival Products",
+      href: "/lunar-new-year-festival-products",
+    },
   ];
 
   console.log(navs);
@@ -37,6 +42,7 @@ export default function Navigator() {
             key={idx}
             className={cx("nav-item nav-link link-body-emphasis", {
               active: navs[idx].paths.includes(location.pathname),
+              "text-danger": navs[idx].href.includes("lunar"),
             })}
             to={href}
           >

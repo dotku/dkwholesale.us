@@ -7,6 +7,7 @@ import KioskVendingMachine from "./pages/KioskVendingMachine/KioskVendingMachine
 import GreenEnergy from "./pages/GreenEnergy/GreenEngergy";
 import Merchaindise from "./pages/Merchaindise/Merchaindise";
 import Commodity from "./pages/Commodity";
+import LunarNewYearFestivalProducts from "./components/Vendors/ZYIntl/LunarNewYearFesstivalProducts";
 
 const router = createHashRouter([
   {
@@ -40,6 +41,10 @@ const router = createHashRouter([
       {
         path: "commodity",
         element: <Commodity />,
+      },
+      {
+        path: "lunar-new-year-festival-products",
+        element: <LunarNewYearFestivalProducts />,
       },
     ],
   },

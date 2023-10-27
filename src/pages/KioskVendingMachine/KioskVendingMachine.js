@@ -1,5 +1,5 @@
 import CottonVendingMachine from "./CottonVendingMachine";
-import MobilePhoneBatteryBankChargeKioskStation from "./MobileBatteryBankCharegeKioskStation";
+import MobilePhoneBatteryBankChargeKioskStation from "../../components/Vendors/Carku/MobileBatteryBankCharegeKioskStation";
 
 export default function KioskVendingMachine() {
   console.log("KioskVendingMachine");
