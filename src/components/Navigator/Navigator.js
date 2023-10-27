@@ -1,20 +1,27 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import cx from "classnames";
 
 export default function Navigator() {
+  const location = useLocation();
+  console.log(location);
   const navs = [
     {
+      paths: ["/", "/kiosk-vending-machine", "/vending-machine"],
       display: "Vending Machines",
       href: "/vending-Machine",
     },
     {
+      paths: ["/green-energy"],
       display: "Green Energy",
       href: "/green-energy",
     },
     {
+      paths: ["/merchaindise"],
       display: "Merchaindise",
       href: "/merchaindise",
     },
     {
+      paths: ["/commodity"],
       display: "Commodity",
       href: "/commodity",
     },
@@ -28,7 +35,9 @@ export default function Navigator() {
         {navs.map(({ display, href }, idx) => (
           <Link
             key={idx}
-            className="nav-item nav-link link-body-emphasis active"
+            className={cx("nav-item nav-link link-body-emphasis", {
+              active: navs[idx].paths.includes(location.pathname),
+            })}
             to={href}
           >
             {display}

@@ -6,6 +6,7 @@ export default function Merchaindise() {
         <img
           src="https://github.com/dotku/dkwholesale.us/assets/1519232/7f765a92-75dc-4f72-903e-62574d8e3b5c"
           alt="Merchaindise"
+          className="img-fluid rounded"
         />
       </center>
       <p>

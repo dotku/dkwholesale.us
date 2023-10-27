@@ -14,6 +14,10 @@ const router = createHashRouter([
     element: <Home />,
     children: [
       {
+        path: "/",
+        element: <KioskVendingMachine />,
+      },
+      {
         path: "app",
         element: <App />,
       },
