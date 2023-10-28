@@ -24,14 +24,18 @@ export default function ContactUs() {
           United States
           <br />
           <hr />
-          <a
-            href="mailto:dkwholesale2020@gmail.com"
-            style={{ textDecoration: "none" }}
-          >
-            dkwholesale2020@gmail.com
+          <div className="mb-2">
+            <a
+              href="mailto:dkwholesale2020@gmail.com"
+              style={{ textDecoration: "none" }}
+            >
+              dkwholesale2020@gmail.com
+            </a>
+          </div>
+          Call/Text:{" "}
+          <a href="tel:(415) 851-1937" className="btn btn-outline-dark">
+            (415) 851-1937
           </a>
-          <br />
-          (415) 851-1937
         </div>
       </address>
     </div>

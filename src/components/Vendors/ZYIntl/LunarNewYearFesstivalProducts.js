@@ -63,7 +63,7 @@ export default function LunarNewYearFestivalProducts() {
         <img
           key={idx}
           src={`${basepath}/${p.filename}`}
-          className="img-fluid col-3"
+          className="img-fluid col-12 col-sm-6 col-md-3"
           alt={`${p.filename}`}
         />
       ))}

@@ -4,8 +4,11 @@ export default function CommodityDataMobileView({ products }) {
   );
   return (
     <div className="container">
-      {categories.map((c) => (
-        <CategoryItems products={products.filter((p) => p.category === c)} />
+      {categories.map((c, k) => (
+        <CategoryItems
+          key={k}
+          products={products.filter((p) => p.category === c)}
+        />
       ))}
     </div>
   );
@@ -15,8 +18,8 @@ function CategoryItems({ products }) {
   return (
     <>
       <h3>{products[0].category}</h3>
-      {products.map((p) => (
-        <div className="card my-3">
+      {products.map((p, idx) => (
+        <div className="card my-3" key={idx}>
           <div className="card-body">
             <div className="row">
               <p className="col-6">product</p>

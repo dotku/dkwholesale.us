@@ -1,3 +1,5 @@
+import { Button } from "bootstrap";
+
 export default function CottonVendingMachine() {
   return (
     <>
@@ -22,25 +24,25 @@ export default function CottonVendingMachine() {
         </div>
       </div>
       <div>
+        <div>我們提供多種合作方案，包括租用、購買或者共享分潤合作。</div>
         <ul className="row">
-          <li className="col-3">
+          <li className="col-12 col-sm-6 col-lg-3">
             <h5>Low cost and high profit</h5>
             低成本，高利潤
           </li>
-          <li className="col-3">
+          <li className="col-12 col-sm-6 col-lg-3">
             <h5>24hr Automatic Operation</h5>
             24 小時自動運營
           </li>
-          <li className="col-3">
+          <li className="col-12 col-sm-6 col-lg-3">
             <h5>Large touch screen</h5>
             大面積觸摸屏 <br />
           </li>
-          <li className="col-3">
+          <li className="col-12 col-ms-6 col-lg-3">
             <h5>No condensation outdoors in winter</h5>
             冬季不凍結 <br />
           </li>
         </ul>
-        <div>我們提供多種合作方案，包括租用、購買或者共享分潤合作。</div>
       </div>
     </>
   );
