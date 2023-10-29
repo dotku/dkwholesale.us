@@ -1,7 +1,10 @@
+import UltraStretchNitrileExamGloves from "../../components/Vendors/ZYIntl/UltraStetchNitrileExamGloves";
+
 export default function Merchaindise() {
   return (
     <>
       <div className="h3">Merchaindise</div>
+      <UltraStretchNitrileExamGloves />
       <center>
         <img
           src="https://github.com/dotku/dkwholesale.us/assets/1519232/7f765a92-75dc-4f72-903e-62574d8e3b5c"
