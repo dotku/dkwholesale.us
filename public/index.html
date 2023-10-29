@@ -80,6 +80,27 @@
       provelySet("config", "type", "notification");
     </script>
     <!-- End of Provely Notification Display Code -->
+    <!-- Start of Provely Tracking Code -->
+    <script>
+      (function (w, n) {
+        if (typeof w[n] == "undefined") {
+          w[n] = [];
+          w.provelySet = function () {
+            w[n].push(arguments);
+          };
+          d = document.createElement("script");
+          d.source = "text/javascript";
+          d.defer = 1;
+          d.charset = "UTF-8";
+          d.src =
+            "https://provely-public.s3.amazonaws.com/scripts/provely-tracking.js?version=1.0";
+          x = document.getElementsByTagName("script")[0];
+          x.parentNode.insertBefore(d, x);
+        }
+      })(window, "provelyTrackObj");
+      provelySet("config", "uuid", "5ddcef34-bb54-4c95-915c-679cd28f082a");
+    </script>
+    <!-- End of Provely Tracking Code -->
     <title>DK Wholesale</title>
   </head>
   <body>
