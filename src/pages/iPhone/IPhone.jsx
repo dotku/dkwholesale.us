@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { discountRate, getFairPrice, regularRate } from "./utils.ts";
 
 export default function IPhone() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null); // [error, setError
   const [data, setData] = useState([]);
-  const [profitRate, setProfitRate] = useState(1.1);
+  const [profitRate, setProfitRate] = useState(regularRate);
   const [coupon, setCoupon] = useState("");
 
   useEffect(() => {
@@ -29,10 +30,11 @@ export default function IPhone() {
   }, []);
 
   const handleCouponInputSubmit = (e) => {
+    e.preventDefault();
     console.log("handleCouponInputSubmit");
     if (["dk", "zhao", "kobe"].includes(coupon.toLocaleLowerCase())) {
       alert("恭喜你，获得 5% 优惠券");
-      setProfitRate(1.05);
+      setProfitRate(discountRate);
     }
   };
 
@@ -65,13 +67,13 @@ export default function IPhone() {
                     <td>{name}</td>
                     <td>{generation}</td>
                     <td>{storage}</td>
-                    <td>{(price * profitRate).toFixed(0)}</td>
+                    <td>{getFairPrice(price, profitRate).toFixed(0)}</td>
                   </tr>
                 ))}
               </tbody>
             </>
           </table>
-          <div className="input-group mb-3">
+          <form className="input-group mb-3" onSubmit={handleCouponInputSubmit}>
             <input
               type="text"
               className="form-control"
@@ -85,11 +87,10 @@ export default function IPhone() {
               className="btn btn-outline-secondary"
               type="button"
               id="button-addon2"
-              onClick={handleCouponInputSubmit}
             >
               提交
             </button>
-          </div>
+          </form>
         </>
       )}
     </div>
