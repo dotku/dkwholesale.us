@@ -32,29 +32,35 @@ export default function IPhone() {
       {isLoading && (
         <div className="text-center">
           <div className="spinner-border m-3" role="status">
-            <span class="visually-hidden">Loading...</span>
+            <span className="visually-hidden">Loading...</span>
           </div>
         </div>
       )}
       {error && <div className="alert alert-danger">{error}</div>}
       {!isLoading && !error && data && (
         <table className="table">
-          <tr>
-            <th>Name</th>
-            <th>Generation</th>
-            <th>Suffix</th>
-            <th>Storage</th>
-            <th>Price</th>
-          </tr>
-          {data.map(({ name, generation, suffix, storage, price }, idx) => (
-            <tr key={idx}>
-              <td>{name}</td>
-              <td>{generation}</td>
-              <td>{suffix}</td>
-              <td>{storage}</td>
-              <td>{(price * 1.1).toFixed(0)}</td>
-            </tr>
-          ))}
+          <>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Generation</th>
+                <th>Suffix</th>
+                <th>Storage</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              {data.map(({ name, generation, suffix, storage, price }, idx) => (
+                <tr key={idx}>
+                  <td>{name}</td>
+                  <td>{generation}</td>
+                  <td>{suffix}</td>
+                  <td>{storage}</td>
+                  <td>{(price * 1.1).toFixed(0)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </>
         </table>
       )}
     </div>
