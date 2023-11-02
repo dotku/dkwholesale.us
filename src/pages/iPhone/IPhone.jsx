@@ -35,6 +35,8 @@ export default function IPhone() {
     if (["dk", "zhao", "kobe"].includes(coupon.toLocaleLowerCase())) {
       alert("恭喜你，获得 5% 优惠券");
       setProfitRate(discountRate);
+    } else {
+      alert("优惠券无效");
     }
   };
 
@@ -85,7 +87,7 @@ export default function IPhone() {
             />
             <button
               className="btn btn-outline-secondary"
-              type="button"
+              type="submit"
               id="button-addon2"
             >
               提交
