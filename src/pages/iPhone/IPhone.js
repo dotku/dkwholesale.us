@@ -42,19 +42,17 @@ export default function IPhone() {
           <>
             <thead>
               <tr>
-                <th>Name</th>
-                <th>Generation</th>
-                <th>Suffix</th>
-                <th>Storage</th>
-                <th>Price</th>
+                <th tile="Name">产品</th>
+                <th tile="Generation">代数</th>
+                <th tile="Storage">容量</th>
+                <th tile="Price">价格</th>
               </tr>
             </thead>
             <tbody>
-              {data.map(({ name, generation, suffix, storage, price }, idx) => (
+              {data.map(({ name, generation, storage, price }, idx) => (
                 <tr key={idx}>
                   <td>{name}</td>
                   <td>{generation}</td>
-                  <td>{suffix}</td>
                   <td>{storage}</td>
                   <td>{(price * 1.1).toFixed(0)}</td>
                 </tr>
