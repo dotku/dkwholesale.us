@@ -16,33 +16,42 @@ export default function NetlifyContactForm() {
 
   return (
     <form name="contact" method="POST" netlify="true" onSubmit={handleSubmit}>
-      <p>
-        <label>
-          Your Name: <input type="text" name="name" />
+      <div className="mb-3">
+        <label htmlFor="name" className="form-label">
+          Your Name
         </label>
-      </p>
-      <p>
-        <label>
-          Your Email: <input type="email" name="email" />
+        <input type="text" name="name" id="name" className="form-control" />
+      </div>
+      <div className="mb-3">
+        <label htmlFor="email" className="form-label">
+          Your Email
         </label>
-      </p>
-      <p>
-        <label>
-          Your Role:{" "}
-          <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-          </select>
+        <input type="email" name="email" id="email" className="form-control" />
+      </div>
+      <div className="mb-3">
+        <label htmlFor="role[]" className="form-label">
+          Your Role
         </label>
-      </p>
-      <p>
-        <label>
-          Message: <textarea name="message"></textarea>
+        <select name="role[]" id="role[]" className="form-select">
+          <option value="manager">Manager</option>
+          <option value="ic">Employee</option>
+        </select>
+      </div>
+      <div className="mb-3">
+        <label htmlFor="message" className="form-label">
+          Message
         </label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
+        <textarea
+          name="message"
+          id="message"
+          className="form-control"
+        ></textarea>
+      </div>
+      <div className="mb-3">
+        <button type="submit" className="btn btn-outline-dark">
+          Send
+        </button>
+      </div>
     </form>
   );
 }
