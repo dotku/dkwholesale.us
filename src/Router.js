@@ -8,6 +8,7 @@ import GreenEnergy from "./pages/GreenEnergy/GreenEngergy";
 import Merchaindise from "./pages/Merchaindise/Merchaindise";
 import Commodity from "./pages/Commodity";
 import LunarNewYearFestivalProducts from "./components/Vendors/ZYIntl/LunarNewYearFesstivalProducts";
+import IPhone from "./pages/iPhone/IPhone";
 
 const router = createHashRouter([
   {
@@ -45,6 +46,10 @@ const router = createHashRouter([
       {
         path: "lunar-new-year-festival-products",
         element: <LunarNewYearFestivalProducts />,
+      },
+      {
+        path: "iphone",
+        element: <IPhone />,
       },
     ],
   },

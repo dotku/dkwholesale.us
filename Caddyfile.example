@@ -1,0 +1,8 @@
+localhost.dkwholesale.us {
+  bind {$ADDRESS}
+  tls internal
+  reverse_proxy /data/* https://dkwholesale.us
+  reverse_proxy /health/* http://localhost:3001
+  reverse_proxy * http://localhost:3000
+}
+
