@@ -9,6 +9,7 @@ import Merchaindise from "./pages/Merchaindise/Merchaindise";
 import Commodity from "./pages/Commodity";
 import LunarNewYearFestivalProducts from "./components/Vendors/ZYIntl/LunarNewYearFesstivalProducts";
 import IPhone from "./pages/iPhone/IPhone";
+import NetlifyContactForm from "./components/ContactUs/NetlifyContactForm";
 
 const router = createHashRouter([
   {
@@ -50,6 +51,10 @@ const router = createHashRouter([
       {
         path: "iphone",
         element: <IPhone />,
+      },
+      {
+        path: "netlify-contact-form",
+        element: <NetlifyContactForm />,
       },
     ],
   },
