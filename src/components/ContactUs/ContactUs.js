@@ -17,9 +17,22 @@ export default function ContactUs() {
           <h3>Contact Us</h3>
           <hr />
           DK Wholesale <br />
-          4125 Hopyard Rd <br />
-          Suite #225 <br />
-          Pleasanton, CA 94588
+          <div>
+            <div>
+              <b>Pleasanton Office</b>
+            </div>
+            <div>
+              4125 Hopyard Rd #225 <br />
+              Pleasanton, CA 94588
+              <br />
+              United States
+            </div>
+          </div>
+          <b>San Francisco Office </b>
+          <br />
+          859 34th Ave
+          <br />
+          San Francisco, CA 94121
           <br />
           United States
           <br />
