@@ -1,6 +1,6 @@
-import "react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
+import "fad-react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
 import { nanoid } from "nanoid";
-import BootstrapTable from "react-bootstrap-table-next";
+import BootstrapTable from "fad-react-bootstrap-table-next";
 import CommodityDataMobileView from "./components/CommodityDataMobileView";
 
 export const formatter = new Intl.NumberFormat("en-US", {

@@ -10,6 +10,8 @@ import Commodity from "./pages/Commodity";
 import LunarNewYearFestivalProducts from "./components/Vendors/ZYIntl/LunarNewYearFesstivalProducts";
 import IPhone from "./pages/iPhone/IPhone";
 import NetlifyContactForm from "./components/ContactUs/NetlifyContactForm";
+import DistributorsPage from "./pages/Distributors";
+import TiktokShop from "./pages/Tiktokshop";
 
 const router = createHashRouter([
   {
@@ -25,12 +27,20 @@ const router = createHashRouter([
         element: <App />,
       },
       {
+        path: "distributors",
+        element: <DistributorsPage />,
+      },
+      {
         path: "green-energy",
         element: <GreenEnergy />,
       },
       {
         path: "kiosk-vending-machine",
         element: <KioskVendingMachine />,
+      },
+      {
+        path: "tiktokshop",
+        element: <TiktokShop />,
       },
       {
         path: "merchaindise",

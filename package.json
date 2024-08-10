@@ -1,6 +1,6 @@
 {
-  "name": "app",
-  "version": "0.1.0",
+  "name": "dkwholesale.us",
+  "version": "0.2.0",
   "homepage": "https://dkwholesale.us/",
   "private": true,
   "dependencies": {
@@ -14,11 +14,11 @@
     "axios": "^1.6.0",
     "bootstrap": "^5.3.2",
     "classnames": "^2.3.2",
+    "fad-react-bootstrap-table-next": "^4.0.5",
     "nanoid": "^5.0.2",
     "node-tesseract-ocr": "^2.2.1",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.9.1",
-    "react-bootstrap-table-next": "^4.0.3",
+    "react-bootstrap": "^2.10.4",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
@@ -56,6 +56,6 @@
     "gh-pages": "^6.0.0",
     "install": "^0.13.0",
     "npm": "^10.2.1",
-    "typescript": "^5.2.2"
+    "typescript": "^4"
   }
 }
