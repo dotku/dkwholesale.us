@@ -8,9 +8,6 @@ export default function KioskVendingMachine() {
     <>
       <CottonVendingMachine />
       <MobilePhoneBatteryBankChargeKioskStation />
-      <div className="mt-3">
-        <Partners />
-      </div>
     </>
   );
 }

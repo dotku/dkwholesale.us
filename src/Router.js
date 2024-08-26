@@ -13,6 +13,7 @@ import NetlifyContactForm from "./components/ContactUs/NetlifyContactForm";
 import DistributorsPage from "./pages/Distributors";
 import TiktokShop from "./pages/Tiktokshop";
 import Partners from "./pages/Partners";
+import HomeMain from "./pages/Home/HomeMain";
 
 const router = createHashRouter([
   {
@@ -21,7 +22,7 @@ const router = createHashRouter([
     children: [
       {
         path: "/",
-        element: <KioskVendingMachine />,
+        element: <HomeMain />,
       },
       {
         path: "app",
