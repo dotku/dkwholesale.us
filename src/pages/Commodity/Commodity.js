@@ -38,7 +38,7 @@ const products = [
     updatedAt: "2023-10-26",
   },
   { id: nanoid(), category: "Mine", product: "稀土", sell: 60000000 },
-  { id: nanoid(), category: "Mine", product: "鈾Mine", origin: "加拿大" },
+  { id: nanoid(), category: "Mine", product: "鈾矿", origin: "加拿大" },
   { id: nanoid(), category: "Mine", product: "煤", origin: "印尼" },
   { id: nanoid(), category: "Cash Crop", product: "棉花" },
 ];
