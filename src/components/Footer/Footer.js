@@ -6,7 +6,10 @@ export default function Footer() {
       <ContactUs />
       <div className="small text-align-center">
         &copy;2023 DKWholesale (US), tehcnologies provide by{" "}
-        <a href="http://jytech.us">JYTech</a> LLC
+        <a href="http://jytech.us" style={{ color: "inherit" }}>
+          JYTech
+        </a>{" "}
+        LLC
       </div>
     </div>
   );
