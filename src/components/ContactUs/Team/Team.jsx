@@ -12,7 +12,7 @@ export default function Team() {
               <a
                 className="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity"
                 href="mailto:peter.yau@dkwholesale.us"
-                tabindex="0"
+                tabIndex="0"
               >
                 peter.yau@dkwholesale.us
               </a>
@@ -21,7 +21,7 @@ export default function Team() {
               <a
                 className="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity"
                 href="tel:+8613168781000"
-                tabindex="0"
+                tabIndex="0"
               >
                 +86 131 6878 1000
               </a>
@@ -33,7 +33,7 @@ export default function Team() {
               <a
                 className="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity"
                 href="mailto:kobe.zhao@dkwholesale.us"
-                tabindex="0"
+                tabIndex="0"
               >
                 kobe.zhao@dkwholesale.us
               </a>
@@ -42,7 +42,7 @@ export default function Team() {
               <a
                 className="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity"
                 href="https://api.whatsapp.com/send?phone=8613829617567"
-                tabindex="0"
+                tabIndex="0"
               >
                 +86 138 2961 7567
               </a>
@@ -54,7 +54,7 @@ export default function Team() {
               <a
                 className="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity"
                 href="mailto:jay.lin@dkwholesale.us"
-                tabindex="0"
+                tabIndex="0"
               >
                 jay.lin@dkwholesale.us
               </a>
@@ -63,7 +63,7 @@ export default function Team() {
               <a
                 className="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity"
                 href="https://api.whatsapp.com/send?phone=14153702887"
-                tabindex="0"
+                tabIndex="0"
               >
                 +1 415 851 1937
               </a>
