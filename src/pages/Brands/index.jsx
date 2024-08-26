@@ -13,6 +13,9 @@ export default function Brands() {
           <a href="https://qiutaisweater.en.alibaba.com/">Qiutai</a> Sweater
         </li>
         <li>
+          <a href="https://ingrem.com/">Ingrem Gaming</a>
+        </li>
+        <li>
           <a href="https://herotech.dkwholesale.us">Haroctech</a> 3C digital
           products, iPhones
         </li>
