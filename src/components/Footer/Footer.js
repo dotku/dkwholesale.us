@@ -5,7 +5,7 @@ export default function Footer() {
     <div id="footer" className="my-5 text-center">
       <ContactUs />
       <div className="small text-align-center">
-        &copy;2023 DKWholesale(US), JYTech LLC
+        &copy;2023 DKWholesale (US), tehcnologies provide by JYTech LLC
       </div>
     </div>
   );
