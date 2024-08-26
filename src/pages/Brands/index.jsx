@@ -3,6 +3,12 @@ export default function Brands() {
     <>
       <ul>
         <li>
+          <a href="https://zyintltrade.com/">ZY International Trade</a>
+        </li>
+        <li>
+          <a href="https://usproglove.com/">Ultra Strech</a>
+        </li>
+        <li>
           <a href="https://qiutaisweater.en.alibaba.com/">Qiutai Sweater</a>
         </li>
         <li>
