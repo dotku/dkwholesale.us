@@ -3,7 +3,7 @@ import UltraStretchNitrileExamGloves from "../../components/Vendors/ZYIntl/Ultra
 export default function Merchaindise() {
   return (
     <>
-      <div className="h3">Merchaindise</div>
+      <div className="h2">Merchaindise</div>
       <UltraStretchNitrileExamGloves />
       <center>
         <img
