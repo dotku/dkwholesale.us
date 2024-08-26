@@ -25,11 +25,6 @@ export default function Navigator() {
       display: "Commodity",
       href: "/commodity",
     },
-    {
-      paths: ["/lunar-new-year-festival-products"],
-      display: "Lunar New Year Festival Products",
-      href: "/lunar-new-year-festival-products",
-    },
   ];
 
   console.log(navs);
