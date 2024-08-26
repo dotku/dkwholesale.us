@@ -22,9 +22,10 @@ const products = [
     category: "Food",
     product: "白糖",
     origin: "巴西",
-    buy: 300,
-    sell: 600,
+    buy: "deal",
+    sell: "deal",
     msrp: 1000,
+    updatedAt: "2024-08-20",
   },
   { id: nanoid(), category: "Food", product: "玉米" },
   { id: nanoid(), category: "Food", product: "豬肉", sell: 2688 },
@@ -46,8 +47,8 @@ const productsSelector = (products) =>
   products.map((p) => ({
     ...p,
     msrp: usdNumberSelector(p.msrp),
-    buy: usdNumberSelector(p.buy),
-    sell: usdNumberSelector(p.sell),
+    buy: isNaN(p.buy) ? p.buy : usdNumberSelector(p.buy),
+    sell: isNaN(p.sell) ? p.sell : usdNumberSelector(p.sell),
   }));
 
 export default function Commodity() {
