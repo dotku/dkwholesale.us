@@ -5,7 +5,8 @@ export default function Footer() {
     <div id="footer" className="my-5 text-center">
       <ContactUs />
       <div className="small text-align-center">
-        &copy;2023 DKWholesale (US), tehcnologies provide by JYTech LLC
+        &copy;2023 DKWholesale (US), tehcnologies provide by{" "}
+        <a href="http://jytech.us">JYTech</a> LLC
       </div>
     </div>
   );
