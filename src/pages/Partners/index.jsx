@@ -65,30 +65,7 @@ export const professionals = [
     name: "稻草人影业",
     business: null,
   },
-  {
-    name: "Nation X",
-    business: null,
-  },
-  {
-    name: "赤兔华盟",
-    business: null,
-  },
-  {
-    name: "YEA Media",
-    business: null,
-  },
-  {
-    name: "News for Chinese",
-    name_cn: "老中新闻网",
-    url: "https://newsforchinese.com/",
-    business: null,
-  },
-  {
-    name: "Chinese In LA",
-    name_cn: "洛杉矶资讯网",
-    url: "https://www.chineseinla.com/",
-    business: null,
-  },
+
   {
     name: "Intelligenic",
     url: "https://intelligenic.ai/",
@@ -118,6 +95,33 @@ export const professionals = [
     name: "TSOai",
     url: "https://tsoai.com",
     business: "AI technology education institution",
+  },
+];
+
+export const medias = [
+  {
+    name: "Nation X",
+    business: null,
+  },
+  {
+    name: "赤兔华盟",
+    business: null,
+  },
+  {
+    name: "YEA Media",
+    business: null,
+  },
+  {
+    name: "News for Chinese",
+    name_cn: "老中新闻网",
+    url: "https://newsforchinese.com/",
+    business: null,
+  },
+  {
+    name: "Chinese In LA",
+    name_cn: "洛杉矶资讯网",
+    url: "https://www.chineseinla.com/",
+    business: null,
   },
   {
     name: "The Legdends Media",
@@ -150,33 +154,54 @@ export function PartnerItem({ data }) {
 
 export default function Partners() {
   return (
-    <div className="row">
-      <div className="col">
-        <h2 className="d-flex align-items-center">
-          <span>Merchandise</span>
-          <span className="badge rounded-pill text-bg-light fs-6">
-            ({merchandices.length})
-          </span>
-        </h2>
-        <ul>
-          {merchandices.map((m) => (
-            <PartnerItem data={m} key={m.name} />
-          ))}
-        </ul>
+    <>
+      <h2 className="d-flex align-items-center">
+        Partners{" "}
+        <span className="badge rounded-pill text-bg-light fs-6">
+          ({merchandices.length + professionals.length + medias.length})
+        </span>
+      </h2>
+      <div className="row">
+        <div className="col">
+          <h3 className="d-flex align-items-center">
+            <span>merchandise</span>
+            <span className="badge rounded-pill text-bg-light fs-6">
+              ({merchandices.length})
+            </span>
+          </h3>
+          <ul>
+            {merchandices.map((m) => (
+              <PartnerItem data={m} key={m.name} />
+            ))}
+          </ul>
+        </div>
+        <div className="col">
+          <h3 className="d-flex align-items-center">
+            <span>professional</span>
+            <span className="badge rounded-pill text-bg-light fs-6">
+              ({professionals.length})
+            </span>
+          </h3>
+          <ul>
+            {professionals.map((p) => (
+              <PartnerItem data={p} key={p.name} />
+            ))}
+          </ul>
+        </div>
+        <div className="col">
+          <h3 className="d-flex align-items-center">
+            <span>medias</span>
+            <span className="badge rounded-pill text-bg-light fs-6">
+              ({medias.length})
+            </span>
+          </h3>
+          <ul>
+            {medias.map((p) => (
+              <PartnerItem data={p} key={p.name} />
+            ))}
+          </ul>
+        </div>
       </div>
-      <div className="col">
-        <h2 className="d-flex align-items-center">
-          <span>Professional</span>
-          <span className="badge rounded-pill text-bg-light fs-6">
-            ({professionals.length})
-          </span>
-        </h2>
-        <ul>
-          {professionals.map((p) => (
-            <PartnerItem data={p} key={p.name} />
-          ))}
-        </ul>
-      </div>
-    </div>
+    </>
   );
 }
