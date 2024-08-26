@@ -3,7 +3,7 @@ export default function Brands() {
     <>
       <ul>
         <li>
-          <a href="http://jp-kagado.com">Kogado</a>
+          <a href="http://jp-kagado.com">Kogado Perfume</a>
         </li>
       </ul>
     </>
