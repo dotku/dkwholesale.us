@@ -1,5 +1,6 @@
 import CottonVendingMachine from "./CottonVendingMachine";
 import MobilePhoneBatteryBankChargeKioskStation from "../../components/Vendors/Carku/MobileBatteryBankCharegeKioskStation";
+import Partners from "../Partners";
 
 export default function KioskVendingMachine() {
   console.log("KioskVendingMachine");
@@ -7,6 +8,9 @@ export default function KioskVendingMachine() {
     <>
       <CottonVendingMachine />
       <MobilePhoneBatteryBankChargeKioskStation />
+      <div className="mt-3">
+        <Partners />
+      </div>
     </>
   );
 }
