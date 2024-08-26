@@ -12,6 +12,7 @@ import IPhone from "./pages/iPhone/IPhone";
 import NetlifyContactForm from "./components/ContactUs/NetlifyContactForm";
 import DistributorsPage from "./pages/Distributors";
 import TiktokShop from "./pages/Tiktokshop";
+import Brands from "./pages/Brands";
 
 const router = createHashRouter([
   {
@@ -25,6 +26,10 @@ const router = createHashRouter([
       {
         path: "app",
         element: <App />,
+      },
+      {
+        path: "brand",
+        element: <Brands />,
       },
       {
         path: "distributors",
