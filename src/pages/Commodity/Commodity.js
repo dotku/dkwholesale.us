@@ -2,6 +2,7 @@ import "fad-react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
 import { nanoid } from "nanoid";
 import BootstrapTable from "fad-react-bootstrap-table-next";
 import CommodityDataMobileView from "./components/CommodityDataMobileView";
+import ReactMarkdown from "react-markdown";
 
 export const formatter = new Intl.NumberFormat("en-US", {
   style: "currency",
@@ -86,8 +87,21 @@ export default function Commodity() {
   return (
     <section>
       <h3>大宗貿易</h3>
-      <p>我們同時提供全球各類大宗產品的採購和出售服務。</p>
-      <div className="text-center">
+      <ReactMarkdown
+        children={`**DK Wholesale 大宗業務簡介**
+
+DK Wholesale 是一家致力於提供優質產品的領先批發商。我們專注於全球市場，為客戶提供一站式的大宗商品採購和銷售服務。無論是食品、消費品、工業原料還是其他產品，我們擁有豐富的供應鏈資源和專業的物流網絡，確保客戶能夠快速、安全地獲得所需商品。
+
+**我們的服務**
+- 全球各類大宗商品的採購：我們幫助客戶從全球不同地區購買優質的產品，確保產品的穩定供應。
+- 大宗商品銷售：我們也提供大宗商品的銷售服務，協助客戶拓展市場，滿足多樣化需求。
+- 定制物流與配送方案：憑藉我們專業的物流團隊，確保產品高效、安全地運輸到指定地點。
+
+無論您是想要大規模採購還是拓展銷售渠道，我們都將竭誠為您提供量身定制的解決方案，助您輕鬆應對市場挑戰。
+
+`}
+      />
+      <div className="text-center my-3">
         <a
           href="https://kdhciddmbip.typeform.com/to/r5cZtQFi"
           target="_blank"

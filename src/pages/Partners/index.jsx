@@ -153,6 +153,7 @@ export function PartnerItem({ data }) {
 }
 
 export default function Partners() {
+  console.log("Partners");
   return (
     <>
       <h2 className="d-flex align-items-center">
