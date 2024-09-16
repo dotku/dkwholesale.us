@@ -30,7 +30,9 @@ export default function MobilePhoneBatteryBankChargeKioskStation() {
         <strong className="my-3">Order your sample starts from $699/pc</strong>
       </p>
       <center>
-        <button className="btn btn-dark">Order</button>
+        <a href="https://www.paypal.com/ncp/payment/J56LDBCG9GETS">
+          <button className="btn btn-dark">Order</button>
+        </a>
       </center>
     </section>
   );
