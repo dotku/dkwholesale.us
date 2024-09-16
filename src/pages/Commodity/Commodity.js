@@ -85,8 +85,18 @@ export default function Commodity() {
 
   return (
     <section>
-      <h3>Commodity</h3>
+      <h3>大宗貿易</h3>
       <p>我們同時提供全球各類大宗產品的採購和出售服務。</p>
+      <div className="text-center">
+        <a
+          href="https://kdhciddmbip.typeform.com/to/r5cZtQFi"
+          target="_blank"
+          rel="noreferrer"
+          className="btn btn-dark"
+        >
+          採購
+        </a>
+      </div>
       <div className="d-none d-md-block">
         <BootstrapTable
           keyField="id"

@@ -7,22 +7,22 @@ export default function Navigator() {
   const navs = [
     {
       paths: ["/", "/kiosk-vending-machine", "/vending-machine"],
-      display: "Vending Machines",
+      display: "自動販售機",
       href: "/vending-Machine",
     },
     {
       paths: ["/green-energy"],
-      display: "Green Energy",
+      display: "綠色能源",
       href: "/green-energy",
     },
     {
       paths: ["/merchaindise"],
-      display: "Merchaindise",
+      display: "貨品",
       href: "/merchaindise",
     },
     {
       paths: ["/commodity"],
-      display: "Commodity",
+      display: "大宗貿易",
       href: "/commodity",
     },
   ];
