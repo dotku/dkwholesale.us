@@ -14,6 +14,7 @@ import DistributorsPage from "./pages/Distributors";
 import TiktokShop from "./pages/Tiktokshop";
 import Partners from "./pages/Partners";
 import HomeMain from "./pages/Home/HomeMain";
+import LogisticsPage from "./pages/Logistics/LogisticsPage";
 
 const router = createHashRouter([
   {
@@ -43,6 +44,10 @@ const router = createHashRouter([
       {
         path: "kiosk-vending-machine",
         element: <KioskVendingMachine />,
+      },
+      {
+        path: "logistics",
+        element: <LogisticsPage />,
       },
       {
         path: "tiktokshop",
