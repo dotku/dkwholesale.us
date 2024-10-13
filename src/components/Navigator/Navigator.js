@@ -25,9 +25,12 @@ export default function Navigator() {
       display: "大宗貿易",
       href: "/commodity",
     },
+    {
+      paths: ["/logistics"],
+      display: "货运服务",
+      href: "/logistics",
+    },
   ];
-
-  console.log(navs);
 
   return (
     <div className="nav-scroller py-1 mb-3 border-bottom">
