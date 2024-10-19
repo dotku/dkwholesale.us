@@ -6,8 +6,8 @@ export default function KioskVendingMachine() {
   console.log("KioskVendingMachine");
   return (
     <>
-      <CottonVendingMachine />
       <MobilePhoneBatteryBankChargeKioskStation />
+      <CottonVendingMachine />
     </>
   );
 }

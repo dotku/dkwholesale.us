@@ -1,6 +1,6 @@
 export default function MobilePhoneBatteryBankChargeKioskStation() {
   return (
-    <section className="mt-3">
+    <section className="my-3">
       <h3>Mobile Phone Battery Bank Charge Kiosk Station</h3>
       <p>移動手機電池充電台</p>
       <img
