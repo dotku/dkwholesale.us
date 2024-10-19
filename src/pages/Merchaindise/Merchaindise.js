@@ -1,9 +1,11 @@
+import MagonioProduct from "../../components/Vendors/Lee/Magonio";
 import UltraStretchNitrileExamGloves from "../../components/Vendors/ZYIntl/UltraStetchNitrileExamGloves";
 
 export default function Merchaindise() {
   return (
     <>
       <div className="h2">Merchaindise</div>
+      <MagonioProduct />
       <UltraStretchNitrileExamGloves />
       <center>
         <img
