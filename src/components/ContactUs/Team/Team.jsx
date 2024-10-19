@@ -2,7 +2,7 @@ export default function Team() {
   return (
     <>
       <div className="max-w-4xl mx-auto p-6">
-        <h2 className="text-xl font-bold mt-10 mb-4">Team</h2>
+        <h2 className="text-xl font-bold mt-10 mb-4">团队</h2>
         <div className="row grid gap-3">
           <div className="col">
             <div className="text-lg font-semibold text-bold fw-semibold">
@@ -54,7 +54,7 @@ export default function Team() {
               </a>
             </div>
           </div>
-          <div className="col">
+          <div className="col d-none">
             <div className="text-lg font-semibold fw-semibold">Jay Lin</div>
             <div>
               <a
