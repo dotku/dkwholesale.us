@@ -17,7 +17,7 @@ function LogisticsPage() {
 
   return (
     <div>
-      <h1>LD 湾区货运物流</h1>
+      <h1>LD 湾区贸易货运物流</h1>
       <p>
         我们是位于旧金山湾区的物流企业，多年服务于奥克兰（Oakland）海港，在行业中遥遥领先。
       </p>
