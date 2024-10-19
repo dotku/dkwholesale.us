@@ -4,7 +4,7 @@ import UltraStretchNitrileExamGloves from "../../components/Vendors/ZYIntl/Ultra
 export default function Merchaindise() {
   return (
     <>
-      <div className="h2">日用商品</div>
+      <div className="h2">日常用品</div>
       <MagonioProduct />
       <UltraStretchNitrileExamGloves />
     </>

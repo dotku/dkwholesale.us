@@ -6,8 +6,8 @@ export default function Navigator() {
   console.log(location);
   const navs = [
     {
-      paths: ["/", "/merchaindise"],
-      display: "日用商品",
+      paths: ["/", "/merchaindise", "daily"],
+      display: "日常用品",
       href: "/merchaindise",
     },
     {
@@ -20,12 +20,11 @@ export default function Navigator() {
       display: "綠色能源",
       href: "/green-energy",
     },
-
-    {
-      paths: ["/commodity"],
-      display: "大宗貿易",
-      href: "/commodity",
-    },
+    // {
+    //   paths: ["/commodity"],
+    //   display: "大宗貿易",
+    //   href: "/commodity",
+    // },
     {
       paths: ["/logistics"],
       display: "货运服务",
