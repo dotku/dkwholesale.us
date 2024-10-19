@@ -26,8 +26,8 @@ export default function Navigator() {
     //   href: "/commodity",
     // },
     {
-      paths: ["/logistics"],
-      display: "货运服务",
+      paths: ["/logistics", "/trading"],
+      display: "贸易货运",
       href: "/logistics",
     },
   ];
