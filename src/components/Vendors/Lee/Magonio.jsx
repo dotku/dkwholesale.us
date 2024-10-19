@@ -25,7 +25,7 @@ export default function MagonioProduct() {
   ];
   return (
     <>
-      <h3>Maganio</h3>
+      <h3>马加里 Maganio 洗染水</h3>
       <div className="mb-3">
         <div
           id="carouselExampleControls"
