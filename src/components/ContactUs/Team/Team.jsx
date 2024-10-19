@@ -6,6 +6,12 @@ export default function Team() {
         <div className="row grid gap-3">
           <div className="col">
             <div className="text-lg font-semibold text-bold fw-semibold">
+              Zhecheng Li
+            </div>
+            <div>WeChat: xiaochi4681</div>
+          </div>
+          <div className="col">
+            <div className="text-lg font-semibold text-bold fw-semibold">
               Peter Yau
             </div>
             <div>
