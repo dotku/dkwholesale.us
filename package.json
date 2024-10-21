@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@formatjs/intl-localematcher": "^0.5.5",
     "@netlify/edge-functions": "^2.2.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -16,6 +17,7 @@
     "classnames": "^2.3.2",
     "fad-react-bootstrap-table-next": "^4.0.5",
     "nanoid": "^5.0.2",
+    "next": "^14.2.15",
     "node-tesseract-ocr": "^2.2.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.4",
@@ -32,7 +34,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "next:dev": "next dev",
+    "next:build": "next build",
+    "next:start": "next start"
   },
   "eslintConfig": {
     "extends": [
@@ -53,10 +58,16 @@
     ]
   },
   "devDependencies": {
+    "@types/negotiator": "^0.6.3",
     "@typescript-eslint/parser": "^6.9.1",
+    "autoprefixer": "^10.4.20",
+    "eslint-config-next": "^14.2.15",
+    "eslint-plugin-import": "^2.31.0",
     "gh-pages": "^6.0.0",
     "install": "^0.13.0",
     "npm": "^10.2.1",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
     "typescript": "^4"
   }
 }
